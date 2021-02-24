@@ -1,6 +1,3 @@
-find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
-find . -name .vscode/ -print0 | xargs -0 git rm -f --ignore-unmatch
-
 #mac
 .DS_Store
 
