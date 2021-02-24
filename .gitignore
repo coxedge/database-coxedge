@@ -1,5 +1,11 @@
+find . -name .DS_Store -print0 | xargs -0 git rm -f --ignore-unmatch
+find . -name .vscode/ -print0 | xargs -0 git rm -f --ignore-unmatch
+
 #mac
 .DS_Store
+
+#vscode
+.vscode/
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
